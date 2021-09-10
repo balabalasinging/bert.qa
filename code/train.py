@@ -232,7 +232,7 @@ class Evaluator(keras.callbacks.Callback):
 
 
 def do_train():
-    data = load_data('round1_train_0907.json')  # 加载数据
+    data = load_data('train.json')  # 加载数据
 
 
     # 交叉验证
